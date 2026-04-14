@@ -1,4 +1,4 @@
-name = "wardyati-sniper"
+name = "wardyati-servers"          # ← changed to match what your CI expects (removes the yellow warning)
 main = "src/index.js"
 compatibility_date = "2025-12-01"
 
