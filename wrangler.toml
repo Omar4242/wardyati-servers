@@ -9,7 +9,7 @@ bindings = [
 
 [[migrations]]
 tag = "v1"
-new_sqlite_classes = [ "SnipeObject" ]
+new_classes = [ "SnipeObject" ]
 
 [vars]
 SNIPER_SECRET = "X7kP9mQ2vL5nR8tW3xY6zA1bC4dE9fG2hJ7kL"
