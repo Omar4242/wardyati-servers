@@ -6,3 +6,7 @@ compatibility_date = "2025-12-01"
 bindings = [
   { name = "SNIPE_OBJECT", class_name = "SnipeObject" }
 ]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = [ "SnipeObject" ]
