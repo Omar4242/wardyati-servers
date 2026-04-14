@@ -1,0 +1,6 @@
+name = "wardyati-sniper"
+main = "src/index.js"
+compatibility_date = "2025-12-01"
+durable_objects = [
+  { name = "SNIPE_OBJECT", class_name = "SnipeObject" }
+]
