@@ -1,6 +1,6 @@
-name = "wardyati-servers"          # ← changed to match what your CI expects (removes the yellow warning)
-main = "src/index.js"
-compatibility_date = "2025-12-01"
+name = "wardyati-servers"
+main = "index.js"
+compatibility_date = "2024-01-01"
 
 [durable_objects]
 bindings = [
@@ -9,7 +9,4 @@ bindings = [
 
 [[migrations]]
 tag = "v1"
-new_classes = [ "SnipeObject" ]
-
-[vars]
-SNIPER_SECRET = "X7kP9mQ2vL5nR8tW3xY6zA1bC4dE9fG2hJ7kL"
+new_classes = ["SnipeObject"]
